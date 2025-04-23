@@ -17,8 +17,6 @@ Ideal for **fleet management**, **accident analysis**, and **proactive maintenan
 - 📌 Record key vehicle data during operation
 - 🔐 Enable secure access to data
 - 🧑‍💼 Help transport managers monitor vehicle efficiency and driver behavior
-- 🌐 Extend the project into a **cloud-based IoT** solution (optional)
-
 ---
 
 ## 🚦 Features
@@ -27,10 +25,32 @@ Ideal for **fleet management**, **accident analysis**, and **proactive maintenan
 |------------------------|-------------|
 | 🧾 **Event Logging**   | Logs gear shifts, speed, fuel usage, engine temperature |
 | 🔒 **Password Access** | Restricts data access to authorized personnel |
-| ⚠️ **Alert System**    | Detects rash driving, high temperature, etc. |
 | 📤 **Data Export**     | Send logs to PC via UART |
 | 📁 **Log Storage**     | Save logs to EEPROM or SD card |
-| 🌐 **IoT Ready**       | Optional cloud upload for centralized tracking |
+
+**Login Authentication**  
+  Secure access to logs via a password prompt.
+
+- 📝 **View Trip Logs**  
+  Displays logs including:
+  - Gear position
+  - Speed
+  - Fuel usage
+  - Engine temperature
+  - Trip distance
+  - Time-stamped events via RTC
+
+- 🔍 **Filter Logs**  
+  View logs for:
+  - Specific date/time
+  - Over-speeding incidents
+  - Engine overheat warnings
+
+- 💾 **Download Logs**  
+  Export logs via UART to CSV or text files.
+
+- 🧹 **Clear Logs**  
+  Optionally reset log memory after export.
 
 ---
 
@@ -47,5 +67,4 @@ Ideal for **fleet management**, **accident analysis**, and **proactive maintenan
 
 ---
 
-## 📂 Project Structure
 
